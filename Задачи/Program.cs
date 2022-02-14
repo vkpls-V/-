@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace Задачи
+namespace Tasks
 {
-    class Program
+    class MyHello
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("myhello");
+        string name;
+        name = Console.ReadLine();
+        Console.WriteLine($"Привет, {name}");
+        Console.ReadKey();
     }
+}
 }
